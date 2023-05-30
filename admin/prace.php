@@ -24,7 +24,7 @@
       <a class="p-2 btn btn-primary" href="stat-baner.php">Статичный банер</a>
       <a class="p-2 btn btn-primary" href="stock.php">Акции</a>
     </nav>
-    <a class="btn btn-outline-primary" href="logout.php">Выйти</a>
+    <a class="btn btn-outline-primary" href="../logout.php">Выйти</a>
   </div>
 
   <div class="" style="text-align:center">

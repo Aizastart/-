@@ -140,22 +140,17 @@
           <div class="layout__content">
             <div class="banner-list grid-list">
               <a
-                href=""
+                href="/сandiesprise.php"
                 data-block-id="13474218"
                 class="banner-list__item editable-block"
               >
                 <div class="img-ratio img-ratio_cover banner-list__item-photo">
                   <div class="img-ratio__inner">
                     <picture>
-                      <source
-                        media="(max-width:480px)"
-                        data-srcset="https://puzzleit.ru/files/puzzles/162/162410/_original.jpg"
-                        type="image/webp"
-                        class="lazyload"
-                      />
+                     
 
                       <img
-                        data-src="https://puzzleit.ru/files/puzzles/162/162410/_original.jpg"
+                        data-src="/img/11.jpg"
                         class="lazyload"
                         alt="Конфеты"
                       />
@@ -167,105 +162,55 @@
               </a>
 
               <a
-                href=""
+                href="/chocolateprise.php"
                 data-block-id="13474219"
                 class="banner-list__item editable-block"
               >
                 <div class="img-ratio img-ratio_cover banner-list__item-photo">
                   <div class="img-ratio__inner">
                     <picture>
-                      <source
-                        media="(max-width:480px)"
-                        data-srcset="https://naked-science.ru/wp-content/uploads/2023/01/1612338133_79-p-fon-molochnii-shokolad-92.jpg"
-                        type="image/webp"
-                        class="lazyload"
-                      />
-
                       <img
-                        data-src="https://naked-science.ru/wp-content/uploads/2023/01/1612338133_79-p-fon-molochnii-shokolad-92.jpg"
+                        data-src="/img/12.jpg"
                         class="lazyload"
-                        alt="Для него"
+                        alt="Шоколад"
                       />
                     </picture>
                   </div>
                 </div>
-
                 <div class="banner-list__item-title">Шоколад</div>
               </a>
 
               <a
-                href=""
+                href="/drinkablesprise.php"
                 data-block-id="13474220"
                 class="banner-list__item editable-block"
               >
                 <div class="img-ratio img-ratio_cover banner-list__item-photo">
                   <div class="img-ratio__inner">
                     <picture>
-                      <source
-                        media="(max-width:480px)"
-                        data-srcset="https://avatars.dzeninfra.ru/get-zen_doc/1579004/pub_5d68d4c678125e00ad64f85d_5d68d590028d6800ac248e06/scale_1200"
-                        type="image/webp"
-                        class="lazyload"
-                      />
-
                       <img
-                        data-src="https://avatars.dzeninfra.ru/get-zen_doc/1579004/pub_5d68d4c678125e00ad64f85d_5d68d590028d6800ac248e06/scale_1200"
+                        data-src="/img/13.webp"
                         class="lazyload"
-                        alt="Для неё"
+                        alt="Напитки"
                       />
                     </picture>
                   </div>
                 </div>
-
                 <div class="banner-list__item-title">Напитки</div>
               </a>
 
               <a
-                href=""
+                href="/zephyrprise.php"
                 data-block-id="13474221"
                 class="banner-list__item editable-block"
               >
                 <div class="img-ratio img-ratio_cover banner-list__item-photo">
                   <div class="img-ratio__inner">
                     <picture>
-                      <source
-                        media="(max-width:480px)"
-                        data-srcset="https://ss.sport-express.ru/userfiles/materials/183/1834898/volga.jpg"
-                        type="image/webp"
-                        class="lazyload"
-                      />
-
                       <img
-                        data-src="https://ss.sport-express.ru/userfiles/materials/183/1834898/volga.jpg"
+                        data-src="/img/14.webp"
                         class="lazyload"
-                        alt="Сладости"
-                      />
-                    </picture>
-                  </div>
-                </div>
-
-                <div class="banner-list__item-title">Сладости</div>
-              </a>
-
-              <a
-                href=""
-                data-block-id="13474222"
-                class="banner-list__item editable-block"
-              >
-                <div class="img-ratio img-ratio_cover banner-list__item-photo">
-                  <div class="img-ratio__inner">
-                    <picture>
-                      <source
-                        media="(max-width:480px)"
-                        data-srcset="https://tprestige.com/wp-content/uploads/2019/11/white-pink.jpg"
-                        type="image/webp"
-                        class="lazyload"
-                      />
-
-                      <img
-                        data-src="https://tprestige.com/wp-content/uploads/2019/11/white-pink.jpg"
-                        class="lazyload"
-                        alt="Зафир"
+                        alt="Зефир"
                       />
                     </picture>
                   </div>
@@ -275,22 +220,15 @@
               </a>
 
               <a
-                href="#"
-                data-block-id="13474223"
+                href="/marmaladeprise.php"
+                data-block-id="13474222"
                 class="banner-list__item editable-block"
               >
                 <div class="img-ratio img-ratio_cover banner-list__item-photo">
                   <div class="img-ratio__inner">
                     <picture>
-                      <source
-                        media="(max-width:480px)"
-                        data-srcset="https://n1s1.hsmedia.ru/3f/2f/71/3f2f71ab6311ec8d8a0a8cd6e8e12b53/728x526_1_a171defad1fb6b4ced11e1498be91dc8@2037x1472_0xac120003_3471390891583422181.jpg"
-                        type="image/webp"
-                        class="lazyload"
-                      />
-
                       <img
-                        data-src="https://n1s1.hsmedia.ru/3f/2f/71/3f2f71ab6311ec8d8a0a8cd6e8e12b53/728x526_1_a171defad1fb6b4ced11e1498be91dc8@2037x1472_0xac120003_3471390891583422181.jpg"
+                        data-src="/img/15.jpg"
                         class="lazyload"
                         alt="Мармелад"
                       />
@@ -299,6 +237,26 @@
                 </div>
 
                 <div class="banner-list__item-title">Мармелад</div>
+              </a>
+
+              <a
+                href="/allprise.php"
+                data-block-id="13474223"
+                class="banner-list__item editable-block"
+              >
+                <div class="img-ratio img-ratio_cover banner-list__item-photo">
+                  <div class="img-ratio__inner">
+                    <picture>
+                      <img
+                        data-src="/img/16.jpg"
+                        class="lazyload"
+                        alt="Все сладости"
+                      />
+                    </picture>
+                  </div>
+                </div>
+
+                <div class="banner-list__item-title">Все сладости</div>
               </a>
             </div>
           </div>
