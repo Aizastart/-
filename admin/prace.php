@@ -44,6 +44,43 @@
     <div class="album  bg-light w-100 ">
       <div class="container">
         <div class="row">
+          <div class="card card1 ml-3 ">
+            <div class="row ">
+              <div class="col-md-5">
+                <img src="../img/107.png" alt="" width="200" class="mt-2">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <form action="/admin/prace/prace.php" method="POST" enctype="multipart/form-data" class="">
+                    <h6 class="card-title">Введите новый Товар
+                    </h6>
+                    <p>Имя товара<br>
+                      <input type="text" name="name" value="Имя товар" class=" card-text mt-2 "><br>
+                      Цена<br>
+                      <input type="text" name="sales" value="Цена" class="card-text mt-2 "><br>
+                      Скидочная цена <br>
+                      <input type="text" name="hotsales" value="Цена со скидкой" class="card-text mt-2 "><br>
+                      Описание товара<br>
+                      <textarea name="description" id="" cols="22" rows="4" class=" card-text mt-2 "></textarea></br>
+
+                      Выберите категорию товара<br>
+                      <select size="1" name="categories">
+                        
+                        <option value="Конфеты">Конфеты</option>
+                        <option value="Шоколад">Шоколад</option>
+                        <option value="Напитки">Напитки</option>
+                        <option value="Зефир">Зефир</option>
+                        <option value="Мармелад">Мармелад</option>
+                      </select> <br> <br>
+                      Загрузка картинки<br>
+                      <input type="file" name="im" class="card-text mt-2">
+                    </p>
+                    <input type="submit" name="save" value="Сохранить" class="btn btn-primary">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
           <?php $sql = $pdo->prepare("SELECT * FROM prace");
           $sql->execute();
           while ($res = $sql->fetch(PDO::FETCH_OBJ)): ?>
@@ -54,8 +91,8 @@
                 </div>
                 <div class="col-md-6">
                   <div class="card-body">
-                    <form action="/admin/prace/prace.php/<?php echo $res->id ?>" method="POST" enctype="multipart/form-data"
-                      class="">
+                    <form action="/admin/prace/deletprace.php/<?php echo $res->id ?>" method="POST"
+                      enctype="multipart/form-data" class="">
                       <h6 class="card-title">Товар:
                         <?php echo $res->name ?> <br>
                         ID товара:
@@ -79,7 +116,9 @@
                         Загрузка картинки<br>
                         <input type="file" name="im" class="card-text mt-2">
                       </p>
-                      <input type="submit" name="save" value="Сохранить" class="btn btn-primary">
+                      <button type="submit" name="update" value="Сохранить" class="btn btn-primary">Сохранить</button>
+                      <button type="submit" name="delete" value="Удалить" class="btn btn-primary"
+                        style="margin-top: 2px;">Удалить</button>
                     </form>
                   </div>
                 </div>
@@ -88,7 +127,7 @@
           <?php endwhile ?>
         </div>
       </div>
-      
+
     <?php else:
       echo '<h2>Доступ закрыт</h2><br>';
       echo '<a href="/" class="btn btn-primary">На главную</a>';

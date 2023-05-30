@@ -31,19 +31,23 @@ if(isset($_POST["save"])){
 }
 ?>
 <?php
-  $name=$_POST['name'];
-  $sales=$_POST['sales'];
-  $hotsales=$_POST['hotsales'];
-  $description=$_POST['description'];
-  $filename=$_POST['filename'];
-  $categories=$_POST['categories'];
-  $url=$_SERVER['REQUEST_URI'];
-  $url=explode('/', $url);
-  $str=$url[4];
-  $sql="UPDATE prace SET name=:name, sales=:sales, hotsales=:hotsales, description=:description, filename=:filename, categories=:categories WHERE id=$str" ;
-  $query=$pdo->prepare($sql);
-  $query->execute(["name"=>$name, "sales"=>$sales, "hotsales"=>$hotsales, "description"=>$description,  
-   "filename"=>$_FILES['im'] ['name'], "categories"=>$categories ]);
+  $name = $_POST['name'];
+  $sales = $_POST['sales'];
+  $hotsales = $_POST['hotsales'];
+  $description = $_POST['description'];
+  $filename = $_POST['filename'];
+  $categories = $_POST['categories'];
   
+  $sql = "INSERT INTO prace (name, sales, hotsales, description, filename, categories) VALUES (:name, :sales, :hotsales, :description, :filename, :categories)";
+  $query = $pdo->prepare($sql);
+  $query->execute([
+      'name' => $name,
+      'sales' => $sales,
+      'hotsales' => $hotsales,
+      'description' => $description,
+      'filename' => $_FILES['im'] ['name'],
+      'categories' => $categories
+  ]);
   
- echo '<meta HTTP-EQUIV="Refresh" Content="3; URL=../prace.php">'?>
+  echo '<meta HTTP-EQUIV="Refresh" Content="1; URL=../prace.php">';
+  ?>

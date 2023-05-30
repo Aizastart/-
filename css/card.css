@@ -20,6 +20,10 @@
   background-color:  rgba(231, 107, 13, 0.6);
   border: 1px solid greenyellow;
   border-radius: 20px;
+  padding-bottom: 1px;
+}
+.btn{
+  margin-top: 2px;
 }
 
 
