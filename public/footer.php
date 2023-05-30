@@ -166,10 +166,8 @@
                   <div class="footer__area-social">
                     <div class="social-items">
                       <div class="social-img-item">
-                        <a href="tel:+996555005131">
-                        <img
-                          src="../img/icon/phone.png"
-                        />
+                        <a href="tel:+996 221 090 191">
+                        <img src="../img/icon/phone.png"/>
                       </a>
                       </div>
 

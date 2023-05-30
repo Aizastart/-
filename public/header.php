@@ -323,7 +323,7 @@
                       >
                         <div class="menu__controls">
                           <a
-                            href="#"
+                            href="/allprise.php"
                             class="menu__link"
                             data-navigation-link="/collection/all"
                           >

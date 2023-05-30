@@ -53,7 +53,7 @@ $allPrises=$allPrise->fetchAll(PDO::FETCH_OBJ);
                 <div class="product-preview__area-title">
                   <div class="product-preview__title">
                     <a href="/product/myagkaya-igrushka-medved-boiko-plyushevyy-mishka-bezhevyy-s-bantom">
-                    <?php echo $allPre->description?></a>
+                    <?php echo $allPre->name?></a>
                   </div>
                 </div>
                 <div class="product-preview__area-description">
@@ -62,6 +62,7 @@ $allPrises=$allPrise->fetchAll(PDO::FETCH_OBJ);
                   <div class="product-preview__price">
                     <span class="product-preview__price-old"><?php echo $allPre->sales?> сом</span>
                     <span class="product-preview__price-cur"><?php echo $allPre->sales?> сом</span>
+                    <p><?php echo $allPre->description?></p>
                   </div>
                   <div class="product-preview__controls">
                     <input type="hidden" name="quantity" value="1" />
