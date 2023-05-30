@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+    <meta name="js-evnvironment" content="production" />
+    <meta name="default-locale" content="ru" />
+    <meta name="insales-redefined-api-methods" content="[]" />
+    <!--InsalesCounter -->
+    <script type="text/javascript">
+      if (typeof __id == "undefined") {
+        var __id = 943720;
+
+        (function () {
+          var ic = document.createElement("script");
+          ic.type = "text/javascript";
+          ic.async = true;
+          ic.src = "/javascripts/insales_counter.js?6";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(ic, s);
+        })();
+      }
+    </script>
+    <!-- /InsalesCounter -->
+
+    <!-- meta -->
+    <meta charset="UTF-8" />
+    <title>Sweet-Stor Karakol</title>
+    <meta name="description" content="Магазин сладостей в Караколе" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- icons-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/icon/icon.png"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+    rel="preload"
+    class="font-main"
+    as="style"
+    href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&subset=cyrillic,latin&display=swap"/>
+
+  <link
+    href="https://static.insales-cdn.com/assets/static-versioned/1.42/static/libs/splide/2.4.21/css/splide.min.css"
+    rel="stylesheet"
+    type="text/css"/>
+
+  <meta name="font-static-version" content="3.11" />
+  <meta
+    name="system-google-fonts"
+    content="Roboto,Comfortaa,Jura,Montserrat,Oswald,Lobster,Neucha,El Messiri,PT Serif,Anonymous Pro,Istok Web,Fira Sans,Open Sans,Manrope,Jost,Exo 2,Raleway,Playfair Display,Noto Serif Display,Press Start 2P,"
+  />
+
+  <link rel="preload"
+    class="font-main"
+    as="style"
+    href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&subset=cyrillic,latin&display=swap"/>
+
+  <link rel="stylesheet"
+    class="font-main"
+    href="//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&subset=cyrillic,latin&display=swap"
+    media="print"
+    onload="this.media='all'"/>
+
+  <link rel="preload"
+    as="style"
+    href="https://static.insales-cdn.com/assets/static-versioned/3.11/static/icons/icons-minimal/style.css"/>
+
+  <link rel="stylesheet"
+    href="https://static.insales-cdn.com/assets/static-versioned/3.11/static/icons/icons-minimal/style.css"
+    media="print"
+    onload="this.media='all'"/>
+
+
+
+  <script src="https://static.insales-cdn.com/assets/static-versioned/1.26/static/libs/jquery/3.5.1/jquery-3.5.1.min.js"></script>
+  <link
+    href="https://static.insales-cdn.com/assets/static-versioned/3.03/static/libs/my-layout/1.0.0/core-css.css"
+    rel="stylesheet"
+    type="text/css"
+  />
+  <link rel="stylesheet" href="css/core.css">
+  <script src="https://static.insales-cdn.com/assets/static-versioned/1.42/static/libs/splide/2.4.21/js/splide.min.js"></script>
+  <script src="https://static.insales-cdn.com/assets/static-versioned/1.26/static/libs/vanilla-lazyload/17.3.0/lazyload.min.js"></script>
+  
+
+
+  </head>
+  <body data-multi-lang="false">
+    <noscript>
+      <div class="njs-alert-overlay">
+        <div class="njs-alert-wrapper">
+          <div class="njs-alert">
+            <p>Включите в вашем браузере JavaScript!</p>
+          </div>
+        </div>
+      </div>
+    </noscript>
+
+    <div class="page_layout page_layout-clear">
+      <header>
+        <div class="layout widget-type_system_widget_v4_header_3">
+          <div class="layout__content">
+            <div class="header header_no-languages">
+              <div class="header__content">
+                <div class="header__area-show-menu">
+                  <button
+                    type="button"
+                    class="button button_size-s header__show-menu-btn js-show-side-panel"
+                  >
+                    <span class="icon icon-bars"></span>
+                    <span class="header__show-menu-text">Меню</span>
+                  </button>
+                </div>
+
+                <div class="header__area-logo">
+                  <span class="header__logo">
+                    <h1>Sweet Store</h1>
+                  </span>
+                </div>
+
+                <div class="header__area-controls">
+                  <div class="header__search">
+                    <form
+                      action="/search"
+                      method="get"
+                      class="header__search-form"
+                    >
+                      <input type="text autocomplete="off" class="form-control
+                      form-control_size-l header__search-field" name="q"
+                      value="" placeholder="Поиск" />
+                      <input type="hidden" name="lang" value="ru" />
+                    </form>
+                    <button
+                      type="button"
+                      class="header__search-btn js-show-search"
+                    >
+                      <span class="icon icon-search _show"></span>
+                      <span class="icon icon-times _hide"></span>
+                    </button>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="header__control-btn header__cabinet"
+                  >
+                    <span class="icon icon-user"></span>
+                  </a>
+
+                  
+
+                  <a
+                    href="basket.html"
+                    class="header__control-btn header__cart"
+                  >
+                    <span class="icon icon-cart">
+                      <span
+                        class="header__control-bage cart-empty"
+                        data-cart-positions-count
+                      ></span>
+                    </span>
+                  </a>
+
+                  <a
+                    href="tel:+78008008080"
+                    class="header__control-btn header__mobile-phone"
+                  >
+                    <span class="icon icon-phone"></span>
+                  </a>
+                </div>
+
+                <div class="header__area-collections">
+                  <div class="header__collections-head">Каталог</div>
+
+                  <ul
+                    class="header__collections js-cut-list-collections"
+                    data-navigation
+                  >
+                    <li class="header__collections-item" data-navigation-item>
+                      <div class="header__collections-controls">
+                        <a
+                          href="#"
+                          class="header__collections-link"
+                          data-navigation-link="/collection/podarki"
+                        >
+                          Все сладости
+                        </a>
+                      </div>
+                    </li>
+
+                    <li class="header__collections-item" data-navigation-item>
+                      <div class="header__collections-controls">
+                        <a
+                          href="#"
+                          class="header__collections-link"
+                          data-navigation-link="/collection/dlya-zhenschin"
+                        >
+                          Конфеты 
+                        </a>
+                      </div>
+                    </li>
+
+                    <li class="header__collections-item" data-navigation-item>
+                      <div class="header__collections-controls">
+                        <a
+                          href="#"
+                          class="header__collections-link"
+                          data-navigation-link="/collection/dlya-muzhchin"
+                        >
+                          Шоколад
+                        </a>
+                      </div>
+                    </li>
+
+                    <li class="header__collections-item" data-navigation-item>
+                      <div class="header__collections-controls">
+                        <a
+                          href="#"
+                          class="header__collections-link"
+                          data-navigation-link="/collection/dlya-detey"
+                        >
+                          Напитки
+                        </a>
+                      </div>
+                    </li>
+
+                    <li class="header__collections-item" data-navigation-item>
+                      <div class="header__collections-controls">
+                        <a
+                          href="#"
+                          class="header__collections-link"
+                          data-navigation-link="/collection/interier"
+                        >
+                          Зефир
+                        </a>
+                      </div>
+                    </li>
+
+                    <li class="header__collections-item" data-navigation-item>
+                      <div class="header__collections-controls">
+                        <a
+                          href="/collection/aksessuary"
+                          class="header__collections-link"
+                          data-navigation-link="/collection/aksessuary"
+                        >
+                          Мармелад
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="side-panel side-panel_no-languages"
+              style="visibility: hidden"
+            >
+              <div class="side-panel__content">
+                <div class="side-panel__head">
+                  <div class="header__search">
+                    <form
+                      action="/search"
+                      method="get"
+                      class="header__search-form"
+                    >
+                      <input
+                        type="text"
+                        autocomplete="off"
+                        class="form-control form-control_size-l header__search-field"
+                        name="q"
+                        value=""
+                        placeholder="Поиск"
+                      />
+                      <input type="hidden" name="lang" value="ru" />
+                    </form>
+                    <button
+                      type="button"
+                      class="header__search-btn js-show-search"
+                    >
+                      <span class="icon icon-search _show"></span>
+                      <span class="icon icon-times _hide"></span>
+                    </button>
+                  </div>
+
+                  <a
+                    href="#"
+                    class="header__control-btn header__cabinet"
+                  >
+                    <span class="icon icon-user"></span>
+                  </a>
+
+                  
+
+                  <button
+                    type="button"
+                    class="button hide-side-panel-btn-mobile js-hide-side-panel"
+                  >
+                    <span class="icon icon-times"></span>
+                  </button>
+                </div>
+
+    
+                <div class="menu">
+                  <div class="menu__head">Меню</div>
+
+                  <div class="menu__section">
+                    <div class="menu__title">Верхнее меню</div>
+                    <ul
+                      class="menu__list"
+                      data-navigation
+                      data-menu-handle="main-menu"
+                    >
+                      <li
+                        class="menu__item"
+                        data-navigation-item
+                        data-menu-item-id="11141470"
+                      >
+                        <div class="menu__controls">
+                          <a
+                            href="#"
+                            class="menu__link"
+                            data-navigation-link="/collection/all"
+                          >
+                            Каталог
+                          </a>
+                        </div>
+                      </li>
+
+                      <li
+                        class="menu__item"
+                        data-navigation-item
+                        data-menu-item-id="11141471"
+                      >
+                        <div class="menu__controls">
+                          <a
+                            href="#"
+                            class="menu__link"
+                            data-navigation-link="/page/about-us"
+                          >
+                            О компании
+                          </a>
+                        </div>
+                      </li>
+
+                      <li
+                        class="menu__item"
+                        data-navigation-item
+                        data-menu-item-id="11141472"
+                      >
+                        <div class="menu__controls">
+                          <a
+                            href="#"
+                            class="menu__link"
+                            data-navigation-link="/page/contacts"
+                          >
+                            Контакты
+                          </a>
+                        </div>
+                      </li>
+
+                      <li
+                        class="menu__item"
+                        data-navigation-item
+                        data-menu-item-id="11141473"
+                      >
+                        <div class="menu__controls">
+                          <a
+                            href="#"
+                            class="menu__link"
+                            data-navigation-link="/page/delivery"
+                          >
+                            Доставка
+                          </a>
+                        </div>
+                      </li>
+
+                      <li
+                        class="menu__item"
+                        data-navigation-item
+                        data-menu-item-id="11141474"
+                      >
+                        <div class="menu__controls">
+                          <a
+                            href="#"
+                            class="menu__link"
+                            data-navigation-link="/page/payment"
+                          >
+                            Способы оплаты
+                          </a>
+                        </div>
+                      </li>
+
+                    
+
+                      <li
+                        class="menu__item"
+                        data-navigation-item
+                        data-menu-item-id="11141481"
+                      >
+                        <div class="menu__controls">
+                          <a
+                            href="/blogs/blog"
+                            class="menu__link"
+                            data-navigation-link="/blogs/blog"
+                          >
+                            Наши новости
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="contacts">
+                  <div class="contacts__head">Контакты</div>
+                  <div class="phone-list">
+                    <div class="phone">
+                      <a class="phone-value" href="tel:+78008008080"
+                        >+996 221 090 191</a
+                      >
+                    </div>
+                  </div>
+
+                  <div class="address">
+                    г. Каракол ул. Тыныстанов 68
+                  </div>
+                </div>
+
+                <div class="soclinks">
+                  <div class="soclinks__item">
+                    <img
+                      src="https://static.insales-cdn.com/files/1/1310/14550302/original/dz.svg"
+                      alt="Иконка социальной сети"
+                    />
+                  </div>
+
+                  <div class="soclinks__item">
+                    <img
+                      src="https://static.insales-cdn.com/files/1/1307/14550299/original/vk.svg"
+                      alt="Иконка социальной сети"
+                    />
+                  </div>
+
+                  <div class="soclinks__item">
+                    <img
+                      src="https://static.insales-cdn.com/files/1/1303/14550295/original/yt.svg"
+                      alt="Иконка социальной сети"
+                    />
+                  </div>
+
+                  <div class="soclinks__item">
+                    <img
+                      src="https://static.insales-cdn.com/files/1/1304/14550296/original/telegram.svg"
+                      alt="Иконка социальной сети"
+                    />
+                  </div>
+                </div>
+              </div>
+              <button
+                type="button"
+                class="button button_size-m hide-side-panel-btn js-hide-side-panel"
+              >
+                <span class="icon icon-times"></span>
+              </button>
+            </div> 
+
+            <div class="header-overlay js-hide-side-panel"></div>
+          </div>
+        </div>
+      </header>
+
+
+
+<!-- Main -->
+
+
+<main>
+        
+  <div class="layout widget-type_system_widget_v4_breadcrumbs_1" style="--delemeter:1; --align:start; --layout-wide-bg:false; --layout-pt:1vw; --layout-pb:0vw; --layout-content-max-width:1408px; --layout-wide-content:false; --layout-edge:false; --hide-desktop:false; --hide-mobile:false;">
+  <div class="layout__content">
+    </div>
+</div>
+
+
+  <div class="layout widget-type_system_widget_v4_product_2" style="--display-property-color:text; --show-selected-variant-photos:false; --product-hide-variants-title:false; --product-hide-sku:false; --product-hide-compare:false; --product-hide-description:true; --rating-color:#FF0000; --rating-color-is-dark:true; --rating-color-minor-shade:#ff1a1a; --rating-color-minor-shade-is-dark:true; --rating-color-major-shade:#ff3333; --rating-color-major-shade-is-dark:true; --rating-color-half-shade:#ff8080; --rating-color-half-shade-is-dark:true; --sticker-font-size:0.9rem; --video-before-image:false; --img-ratio:1; --img-fit:contain; --grid-list-row-gap:1rem; --manager-photo:'https://static.insales-cdn.com/files/1/7896/14147288/original/manager.png'; --layout-wide-bg:false; --layout-pt:2vw; --layout-pb:2vw; --layout-content-max-width:1408px; --layout-wide-content:false; --layout-edge:false; --hide-desktop:false; --hide-mobile:false;">
+  <div class="layout__content">
+  <div data-product-id="222582900" data-video-size="0" data-gallery-type="all-photos" class="product is-zero-count-shown without-old-price without-sku is-available product-inited" data-variant-photos="" data-variant-id="379014273" data-variant-first-img-id="390108742">
+  <div class="product__area-photo">
+  <div class="product__one-photo">
+      <a class="img-ratio  " >
+        <div class="img-ratio__inner">
+          <img src="https://fikiwiki.com/uploads/posts/2022-02/1644861371_1-fikiwiki-com-p-zaitsi-krasivie-kartinki-1.jpg" >
+        </div>
+      </a>
+    </div>
+    
+  </div>
+  <form action="/cart_items" method="post" class="product-form">
+ 
+  <div class="product__area-title">
+    <h1 class="product__title heading">
+      Белый зайка, вязанный
+    </h1>
+  </div>
+  
+  <div class="product__area-variants">
+    
+    <input type="hidden" name="variant_id" value="379014273">
+    
+  </div>
+  
+  <div class="product__price">
+    <span class="product__price-cur" data-product-card-price-from-cart="">800.00&nbsp;₽</span>
+    <span class="product__price-old" data-product-card-old-price=""></span>
+  </div>
+  <div class="product__controls">
+    <div class="product__buy-btn-area" id="product-detail-buy-area" style="height: auto;">
+      <div class="product__buy-btn-area-inner">
+        <div class="add-cart-counter" data-add-cart-counter="{&quot;step&quot;: &quot;1&quot;}" data-add-cart-counter-max-quantity="null" data-add-cart-counter-is-ready="">
+          <button type="button" class="button button_size-l add-cart-counter__btn" data-add-cart-counter-btn="">
+          <span class="add-cart-counter__btn-label">В корзину</span>
+          <span class="button__icon icon-cart"></span>
+          </button>
+          <div class="add-cart-counter__controls">
+            <button data-add-cart-counter-minus="" class="button button_size-l  add-cart-counter__controls-btn" type="button">-</button>
+            <a href="/cart_items" class="button button_size-l  add-cart-counter__detail">
+            <span class="add-cart-counter__detail-text">В корзине <span data-add-cart-counter-count="">0</span> шт</span>
+            <span class="add-cart-counter__detail-dop-text">Перейти</span>
+            </a>
+            <button data-add-cart-counter-plus="" class="button button_size-l  add-cart-counter__controls-btn" type="button">+</button>
+          </div>
+        </div>
+        <button data-product-card-preorder="" class="button button_size-l button_wide product__preorder-btn" type="button" data-preorder-product-name="Белый зайка, вязанный" data-preorder-variant="">Предзаказ</button>
+        
+      </div>
+    </div>
+    
+    
+    
+      
+        <span data-compare-trigger="222582900" class="button-link product__user-btn product__compare-btn compare-not-added">
+          <span class="product__user-btn-icon icon-compare"></span>
+          <span data-compare-trigger-added-text="В сравнении" data-compare-trigger-not-added-text="Добавить в сравнение">Добавить в сравнение</span>
+        </span>
+      
+    
+    
+  </div>
+  
+  </form>
+  <div class="product__area-calculate-delivery">
+    
+    
+
+
+  </div>
+  <div class="product-info">
+    
+    
+    
+    <div class="product-description static-text" id="product-description">
+      <div class="label-description">Описание</div>
+      <div class="content-description static-text">
+        <p><!--(figmeta)eyJmaWxlS2V5IjoiNGxneFdFV0hJbW1jaW5URlEzTVN3VyIsInBhc3RlSUQiOi0xLCJkYXRhVHlwZSI6InNjZW5lIn0K(/figmeta)--><!--(figma)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(/figma)--><span>Есть игрушки, которые хочется всегда держать, чувствуя теплоту и нежность от них. Коллекция Misha именно такие. Стильные, красивые и милые мишки, с добрым характером. Misha идеально впишутся в интерьер, добавив нежности, уюта. Всегда актуальная классика в авторском исполнении, с безупречным качеством, делают эти игрушки прекрасным подарком.</span></p>
+      </div>
+      <span class="button-link more-items js-more-desc hidden">Показать полностью</span>
+    </div>
+    
+  </div>
+  
+  
+  <div class="reviews_area">
+    <div class="reviews">
+      <div class="reviews__title">Отзывы</div>
+      <div class="grid-list">
+        
+        Отзывов еще никто не оставлял
+      </div>
+      
+    </div>
+    <button class="button button_size-m show-form-btn js-show-form ">Написать отзыв</button>
+    <div class="review-form-wrapper">
+      <form class="review-form" method="post" action="/product/belyy-zayka-vyazannyy/reviews#review_form" enctype="multipart/form-data">
+
+      
+      <div id="review_form" class="reviews-wrapper hidden">
+        <div class="review-form-header">
+          <div class="review-form-title">Оставить отзыв</div>
+          <span class="button-link hide-form-btn js-hide-form">Закрыть</span>
+        </div>
+        <div class="reviews-form">
+          
+          <div class="js-review-wrapper">
+            <div class="form-row star-rating-row">
+              <label class="form-label">Оценка <span class="text-error">*</span></label>
+              <div class="star-rating-wrapper">
+                <div class="star-rating">
+                  
+                  
+                  <input name="review[rating]" id="star5-222582900" type="radio" class="star-radio" value="5">
+                  <label title="5" for="star5-222582900" class="star-label icon icon-star"></label>
+                  
+                  
+                  <input name="review[rating]" id="star4-222582900" type="radio" class="star-radio" value="4">
+                  <label title="4" for="star4-222582900" class="star-label icon icon-star"></label>
+                  
+                  
+                  <input name="review[rating]" id="star3-222582900" type="radio" class="star-radio" value="3">
+                  <label title="3" for="star3-222582900" class="star-label icon icon-star"></label>
+                  
+                  
+                  <input name="review[rating]" id="star2-222582900" type="radio" class="star-radio" value="2">
+                  <label title="2" for="star2-222582900" class="star-label icon icon-star"></label>
+                  
+                  
+                  <input name="review[rating]" id="star1-222582900" type="radio" class="star-radio" value="1">
+                  <label title="1" for="star1-222582900" class="star-label icon icon-star"></label>
+                  
+                  
+                </div>
+              </div>
+            </div>
+            <div class="form-row form-author is-required ">
+              <label class="form-label">Имя <span class="text-error">*</span></label>
+              <input name="review[author]" placeholder="Имя" value="" type="text" class="form-control form-control_size-m">
+            </div>
+            <div class="form-row form-email is-required ">
+              <label class="form-label">Email <span class="text-error">*</span></label>
+              <input name="review[email]" placeholder="Email" value="" type="text" class="form-control form-control_size-m">
+            </div>
+            <div class="form-row form-comment is-required ">
+              <label class="form-label">Отзыв <span class="text-error">*</span></label>
+              <textarea name="review[content]" placeholder="Отзыв" class="form-control form-control_size-m is-textarea"></textarea>
+            </div>
+            
+            
+            <div data-comments-form-field-area="" class="form-row form-captcha ">
+              <div data-comments-form-recaptcha="{&quot;isRequired&quot;: true, &quot;errorMessage&quot;: &quot;Необходимо подтвердить «Я не робот»&quot;}" id="captcha_challenge" class="captcha-recaptcha"></div>
+              <div data-comments-form-field-error="" class="form__field-error"></div>
+            </div>
+            
+            <div class="form-controls">
+              <button type="submit" class="button button_size-l">Оставить отзыв</button>
+            </div>
+          </div>
+          
+          <div class="moderation">
+            <p>Перед публикацией отзывы проходят модерацию</p>
+          </div>
+          
+        </div>
+      </div>
+      
+</form>
+    </div>
+  </div>
+  
+</div>
+
+
+
+  </div>
+</div>
+
+
+  
+
+  
+
+
+      </main>
+
+      
+
+      
+      <!-- ФУТЕР____________________________________________________________________________________________________________________________________ -->
+      <footer>
+        <div
+          class="layout widget-type_system_widget_v4_footer_5"
+          style="
+            --logo-img: 'https://static.insales-cdn.com/files/1/2143/14911583/original/logo__6_.svg';
+            --logo-max-width: 100px;
+            --hide-phone-2: false;
+            --hide-menu-title: false;
+            --hide-social: false;
+            --social-img-1: 'https://static.insales-cdn.com/files/1/1310/14550302/original/dz.svg';
+            --social-img-4: 'https://static.insales-cdn.com/files/1/1307/14550299/original/vk.svg';
+            --social-img-5: 'https://static.insales-cdn.com/files/1/1303/14550295/original/yt.svg';
+            --social-img-7: 'https://static.insales-cdn.com/files/1/1304/14550296/original/telegram.svg';
+            --bg: #ffffff;
+            --bg-is-light: true;
+            --bg-minor-shade: #f7f7f7;
+            --bg-minor-shade-is-light: true;
+            --bg-major-shade: #ededed;
+            --bg-major-shade-is-light: true;
+            --bg-half-shade: #808080;
+            --bg-half-shade-is-dark: true;
+            --layout-wide-bg: true;
+            --layout-pt: 2vw;
+            --layout-pb: 2vw;
+            --layout-content-max-width: 1408px;
+            --layout-wide-content: false;
+            --layout-edge: false;
+            --hide-desktop: false;
+            --hide-mobile: false;
+          "
+        >
+          <div class="layout__content">
+            <div class="footer-wrap">
+              <div class="footer-bottom">
+                <div class="footer__area-logo">
+                  <a href="/" class="footer__logo">
+                   <h3>Sweet store</h3>
+                  </a>
+                </div>
+              </div>
+
+              <div class="footer-top">
+                <div class="footer__area-menu">
+                  <div class="menu-item" data-menu-handle="main-menu">
+                    <div class="menu-title">
+                    
+                      <button
+                        class="menu-show-submenu-btn js-show-mobile-submenu"
+                        type="button"
+                      >
+                        <span class="icon icon-angle-down"></span>
+                      </button>
+                    </div>
+
+                    <a
+                      class="menu-link"
+                      href="/collection/all"
+                      data-menu-item-id="11141470"
+                    >
+                      Каталог
+                    </a>
+
+                    <a
+                      class="menu-link"
+                      href="/page/about-us"
+                      data-menu-item-id="11141471"
+                    >
+                      О нас
+                    </a>
+
+                    <a
+                      class="menu-link"
+                      href="/page/contacts"
+                      data-menu-item-id="11141472"
+                    >
+                      Контакты
+                    </a>
+
+                    <a
+                      class="menu-link"
+                      href="/page/delivery"
+                      data-menu-item-id="11141473"
+                    >
+                      Доставка
+                    </a>
+
+                    <a
+                      class="menu-link"
+                      href="/page/payment"
+                      data-menu-item-id="11141474"
+                    >
+                      Оплата
+                    </a>
+
+                    <a
+                      class="menu-link"
+                      href="/client_account/login"
+                      data-menu-item-id="11141475"
+                    >
+                      Личный кабинет
+                    </a>
+
+                    <a
+                      class="menu-link"
+                      href="/blogs/blog"
+                      data-menu-item-id="11141481"
+                    >
+                      Наши новости
+                    </a>
+                  </div>
+
+                  <div class="menu-item" data-menu-handle="main-menu">
+                    <div class="menu-title">
+                      
+                      <button
+                        class="menu-show-submenu-btn js-show-mobile-submenu"
+                        type="button"
+                      >
+                        <span class="icon icon-angle-down"></span>
+                      </button>
+                    </div>
+
+                    <a
+                      class="menu-link"
+                      href="/collection/all"
+                      data-menu-item-id="11141470"
+                    >
+                      Обратная связь
+                    </a>
+
+                    <a
+                      class="menu-link"
+                      href="/page/about-us"
+                      data-menu-item-id="11141471"
+                    >
+                      Политика конфедециальности
+                    </a>
+
+                    <a
+                      class="menu-link"
+                      href="/page/contacts"
+                      data-menu-item-id="11141472"
+                    >
+                      Тех потдержка
+                    </a>
+                  </div>  
+                </div>
+                <div class="footer__area-sidebar">
+                  <div class="contacts_title">Контакты</div>
+                  <div class="footer__area-contacts">
+                    <div class="footer__phone">
+                      <a class="footer__phone-value" href="tel:+996221090191"
+                        >+996 221 090 191</a
+                      >
+                    </div>
+
+                    <div class="footer__phone _phone-2">
+                      <a class="footer__phone-value" href="tel:+996221090191"
+                        >+996 221 090 191</a
+                      >
+                    </div>
+                  </div>
+                  <div class="contacts_info">
+                    г. Каракол ул. Тыныстанова
+                  </div>
+                  <div class="footer__area-social">
+                    <div class="social-items">
+                      <div class="social-img-item">
+                        <img
+                          src="https://static.insales-cdn.com/files/1/1310/14550302/original/dz.svg"
+                        />
+                      </div>
+
+                      <div class="social-img-item">
+                        <img
+                          src="https://static.insales-cdn.com/files/1/1307/14550299/original/vk.svg"
+                        />
+                      </div>
+
+                      <div class="social-img-item">
+                        <img
+                          src="https://static.insales-cdn.com/files/1/1303/14550295/original/yt.svg"
+                        />
+                      </div>
+
+                      <div class="social-img-item">
+                        <img
+                          src="https://static.insales-cdn.com/files/1/1304/14550296/original/telegram.svg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    </div>
+  <script src="js/script.js"></script>
+  <link
+    href="css/theme.css"
+    rel="stylesheet"
+    type="text/css"
+    ;"
+  /> 
+  </body>   
+</html>

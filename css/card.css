@@ -1,0 +1,27 @@
+
+.album{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+  background-image: url(../img/sweet/backgroud.jpeg);
+}
+/* .dis{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+} */
+.card1{
+  width: 480px;
+  align-items: center;
+  background-color:  rgba(231, 107, 13, 0.6);
+  border: 1px solid greenyellow;
+  border-radius: 20px;
+}
+
+
+@media (max-width:524px ) { 
+  .card {width: 380px} }
