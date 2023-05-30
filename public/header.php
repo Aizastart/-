@@ -184,7 +184,7 @@
                     <li class="header__collections-item" data-navigation-item>
                       <div class="header__collections-controls">
                         <a
-                          href="#"
+                          href="/allprise.php"
                           class="header__collections-link"
                           data-navigation-link="/collection/podarki"
                         >
@@ -196,7 +196,7 @@
                     <li class="header__collections-item" data-navigation-item>
                       <div class="header__collections-controls">
                         <a
-                          href="#"
+                          href="/сandiesprise.php"
                           class="header__collections-link"
                           data-navigation-link="/collection/dlya-zhenschin"
                         >
@@ -208,7 +208,7 @@
                     <li class="header__collections-item" data-navigation-item>
                       <div class="header__collections-controls">
                         <a
-                          href="#"
+                          href="/chocolateprise.php"
                           class="header__collections-link"
                           data-navigation-link="/collection/dlya-muzhchin"
                         >
@@ -220,7 +220,7 @@
                     <li class="header__collections-item" data-navigation-item>
                       <div class="header__collections-controls">
                         <a
-                          href="#"
+                          href="/drinkablesprise.php"
                           class="header__collections-link"
                           data-navigation-link="/collection/dlya-detey"
                         >
@@ -232,7 +232,7 @@
                     <li class="header__collections-item" data-navigation-item>
                       <div class="header__collections-controls">
                         <a
-                          href="#"
+                          href="/zephyrprise.php"
                           class="header__collections-link"
                           data-navigation-link="/collection/interier"
                         >
@@ -244,7 +244,7 @@
                     <li class="header__collections-item" data-navigation-item>
                       <div class="header__collections-controls">
                         <a
-                          href="/collection/aksessuary"
+                          href="/marmaladeprise.php"
                           class="header__collections-link"
                           data-navigation-link="/collection/aksessuary"
                         >

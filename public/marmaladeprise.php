@@ -6,7 +6,26 @@ $allPrise->execute();
 $allPrises=$allPrise->fetchAll(PDO::FETCH_OBJ);
 ?>
 <main>
-    <div class="layout widget-type_system_widget_v4_catalog_2"
+<div class="layout widget-type_system_widget_v4_filter_sort_1"
+    style="--hide-sorting-on-mobile:false; --hide-sorting-border:true; --layout-wide-bg:true; --layout-pt:1vw; --layout-pb:0.5vw; --layout-wide-content:false; --layout-edge:false; --hide-desktop:false; --hide-mobile:false;">
+    <div class="layout__content">
+      <div class="filter-top-controls">
+        <div class="collection-sort">
+          <form class="collection-order-wrapper" action="/collection/podarki" method="get">
+            <div class="collection-order is-sort">
+              
+              <h2 class="js-sorting-trigger form-control form-control_size-b" name="">
+                  Мармелад
+                </h2>
+              
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>  
+  
+<div class="layout widget-type_system_widget_v4_catalog_2"
     style="--hide-description:true; --catalog-grid-list-min-width:220px; --img-ratio:1; --img-fit:contain; --product-desc-limit:10; --product-info-align:left; --switch-img-on-hover:false; --product-info-accent:price; --sticker-font-size:0.9rem; --layout-wide-bg:false; --catalog-grid-list-row-gap:2rem; --catalog-grid-list-column-gap:2rem; --layout-pt:2vw; --layout-pb:2vw; --layout-content-max-width:1408px; --layout-wide-content:false; --layout-edge:false; --hide-desktop:false; --hide-mobile:false; --catalog-grid-list-min-width-mobile:160px;">
     <div class="layout__content">
       <div class="catalog">

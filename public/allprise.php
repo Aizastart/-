@@ -13,15 +13,9 @@ $allPrises=$allPrise->fetchAll(PDO::FETCH_OBJ);
         <div class="collection-sort">
           <form class="collection-order-wrapper" action="/collection/podarki" method="get">
             <div class="collection-order is-sort">
-              <div class="select-wrapper">
-                <select class="js-sorting-trigger form-control form-control_size-m" name="order">
-                  <option value=''>Сортировка</option>
-                  <option value='price'>по возрастанию цены</option>
-                  <option value='descending_price'>по убыванию цены</option>
-                  <option value='descending_age'>сначала новые</option>
-                  <option value='title'>по названию</option>
-                </select>
-              </div>
+            <h2 class="js-sorting-trigger form-control form-control_size-b" name="">
+                  Все товары
+                </h2>
             </div>
           </form>
         </div>
